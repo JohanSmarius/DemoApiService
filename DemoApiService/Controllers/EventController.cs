@@ -21,7 +21,8 @@ namespace DemoApiService.Controllers
                     Name = $"Event {i}",
                     Description = $"Description for Event {i}",
                     StartTime = DateTime.Now.AddDays(i),
-                    EndTime = DateTime.Now.AddDays(i + 1)
+                    EndTime = DateTime.Now.AddDays(i + 1),
+                    Location = $"Location for Event {i}"
                 });
             }
 
